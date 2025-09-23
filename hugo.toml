@@ -75,7 +75,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # You can take a look at layouts/index.html for more information.
   description = "Clnical Research Coordinator"
   mainSections = ['posts']
-  toc = true # set to false to disable table of contents 'globally'
+  toc = false # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
@@ -83,7 +83,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
-  dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
+  dateFormat = "2006.01.02" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
   # See https://gohugo.io/functions/time/format/ for available date formats.
   rssFeedDescription = "summary" # available options: 1) summary 2) full
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
@@ -93,7 +93,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [Languages.en-us.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Victor Vo"
   name = "Victor Vo"
   description = "Clinical Research Coordinator"
 
@@ -566,7 +566,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/nho1ix"
 
 [[params.socialIcons]]
 name = "twitter"
